@@ -1,0 +1,27 @@
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.navbar-header {
+			position: relative;
+		}
+
+		.container-fluid {
+			font-size: 140%;
+      position: relative;
+
+		}
+
+		.container-fluid {
+			float: none;
+			width: 100%;
+      position: relative;
+
+		}
+    .IMG{
+      width: 100%;
+      position: relative;
+
+    }
+
+	}

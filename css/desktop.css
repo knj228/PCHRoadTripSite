@@ -1,0 +1,23 @@
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .navbar-header {
+      position: relative;
+    }
+
+    .container-fluid {
+      font-size: 140%;
+    }
+    .IMG{
+      width: 100%;
+      position: relative;
+
+    }
+    .container-fluid {
+      float: none;
+      width: 100%;
+    }
+}
+}

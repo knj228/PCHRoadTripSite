@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>PCH Gallery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/desktop.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+
+
+
+  </head>
+
+  <body>
+    <span id="flip">
+    <img id="glitchClick" src="img/glitch.png" alt="TitleLogo" height="50" width="50">
+    <nav id="panel" class="navbar navbar-inverse navbar-fixed-top">
+      <div id="desc" class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span id="flip">
+          <img id="glitch" src="img/glitch.png" alt="Logo" height="50" width="50">
+        </span>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="PCH.html">PCH</a></li>
+            <li class="active"><a href="gallery.html">Photos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <script>
+        $(function(){
+          $("#slides").slidesjs({
+            width: 940,
+            height: 528,
+            play: {
+              active: true,
+              auto: true,
+              interval: 4000,
+              swap: true
+            }
+          });
+        });
+      </script>
+    </head>
+    <body>
+      <div id="slides">
+        <img src="img/PCH1.jpg">
+        <img src="img/PCH2.jpg">
+        <img src="img/PCH3.jpg">
+        <img src="img/PCH4.jpg">
+        <img src="img/PCH5.jpg">
+        <img src="img/PCH6.jpg">
+        <img src="img/PCH7.jpg">
+        <img src="img/PCH8.jpg">
+        <img src="img/PCH9.jpg">
+      </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>PCH Trip Photo Gallery</h1>
+            </div>
+        </div>
+        <hr>
+        <p>Hey! This is my PCH Photo Gallery, All of the pictures that you see were taken by me.</p>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="js/cal.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+
+</body>
+
+</html>
